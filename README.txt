@@ -14,15 +14,15 @@ src/State.java
     - The State class is a blueprint for objects with attributes representing facts about the state.
 
 src/StateFileReader.java
-    - StateFileReader scans contents of a CSV file, creates State objects that are added to a LinkedList,
-      and returns the LinkedList of State objects.
+    - StateFileReader scans contents of a CSV file, creates State objects that are added to an ArrayList,
+      and returns the ArrayList of State objects.
 
 src/StateHashMapWrangler.java
     - The StateHashMapWrangler class contains code for converting an ArrayList of objects into a HashMap.
 
 src/StateObjectHandler.java
     - The StateObjectHandler class contains the main() method, and demonstrates the State class,
-      and StateFileReader class.
+      StateFileReader class, and StateHashMapWrangler class.
 
 resources/States.txt
     - This is a text file containing a list of the 50 US states, their abbreviations, their capitals,
